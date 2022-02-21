@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Login","Colin log in with valid credentials","SUCCESS","2022-02-21T21:23:41.094130659Z[Etc/UTC]","0.0","15.38"
-"Search by keyword","Searching for a term","SUCCESS","2022-02-21T21:23:56.726394988Z[Etc/UTC]","0.0","3.09"
