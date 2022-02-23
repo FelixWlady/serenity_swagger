@@ -10,8 +10,8 @@ import swaglabs.model.SwaglabasUser;
 public class Login {
     public static Performable asA(SwaglabasUser standardUser) {
         return Task.where("{0} logs in as a " + standardUser,
-                Enter.theValue("standard_user").into("#user-name"),
-                Enter.theValue("secret_sauce").into("#password"),
+                Enter.theValue(standardUser.username).into("#user-name"),
+                Enter.theValue(standardUser.password).into("#password"),
                 Click.on(Button.withNameOrId("login-button"))
         );
     }
